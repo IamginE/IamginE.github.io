@@ -154,8 +154,11 @@ strong,span{
     font-size: 18px;
     font-weight: bolder;
 }
-.tags ~ a{
+.tag ~ a{
     display: none !important;
+}
+.tags a{
+    color: #067fc4;
 }
 .tags span{
     font-size: 15px;
