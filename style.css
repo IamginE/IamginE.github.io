@@ -3,6 +3,7 @@ html{
     font-family: 'Open Sans',sans-serif;
     /* background: whitesmoke; */
     background: whitesmoke url('pics/background.svg') no-repeat center center fixed;
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -177,6 +178,10 @@ strong,span{
 @media screen and (max-width:1090px){
     #profile{
         margin-left: 5%;
+    }
+    html{
+        background: whitesmoke url('pics/background_mobile.svg') no-repeat center center fixed;
+        background-size: cover;
     }
 }
 @media screen and (max-width:850px){
