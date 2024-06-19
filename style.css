@@ -59,6 +59,16 @@ hr{
     width: 45px;
     margin: 2.5px 2.5px;
 }
+.citation-icon{
+    height: 25px;
+    width: 25px;
+    margin: 2.5px 2.5px;
+}
+.citation-icon:hover{
+    height: 30px;
+    width: 30px;
+    margin: 0px 0px;
+}
 #image > a{
     position: absolute;
     top:0;
@@ -166,9 +176,6 @@ strong,span{
     font-size: 18px;
     font-weight: bolder;
 }
-.tag ~ a{
-    display: none !important;
-}
 .tags a{
     color: #067fc4;
 }
@@ -179,6 +186,15 @@ strong,span{
 }
 .tags span span{
     color: #616f71;
+}
+.citation-tags{
+    font-size: 15px !important;
+    font-weight: bolder;
+}
+.citation-tags span{
+    font-size: 15px;
+    font-weight: normal;
+    color: #000000;
 }
 @media screen and (max-width:1090px){
     #profile{
